@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<style>
+#menutrai
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+#menutrai ul
+{
+    margin-right: 10px;
+}
+
+#menutrai ul li
+{
+    list-style-type: none;
+    margin-left: 10px;
+}
+a.menutrai:link
+{
+   color: #b22d30;
+   font-family:'Times New Roman', Times, serif;
+   text-decoration: none;
+}
+a.menutrai:visited
+{
+   color: #b22d30;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+a.menutrai:hover
+{
+   color: #5426d1;
+   font-family:'Times New Roman', Times, serif;
+}
+a.menutrai:active
+{
+   color: #190c3f;
+   font-family:'Times New Roman', Times, serif;
+}
+
+/* MENU NGANG */
+#menubar {
+    background-color: #b22d30;
+    height: 52px;
+}
+
+#menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#menubar ul li {
+    margin: 0 25px;
+}
+
+#menubar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+#menubar ul li a:hover {
+    color: yellow;
+}
+</style>
+<html>
+    <header>
+        <link rel="stylesheet" href="css/layout.css"/>
+
+        <div id="header" style="display: flex;flex-direction: column;height: 180px;background-color: aqua;">
+            <div id="banner" style="height: 126px; background-color: #fff; display: flex; flex-direction: row;text-align: center;justify-content: center;align-items: center;">
+                    <div id="divmenutrai">
+                            <nav id="menutrai">
+                                <ul style="display: flex; flex-direction: row;width: 270px;">
+                                    <li><a href="https://www.kthcm.edu.vn/" class="menutrai">TRANG CHU</a></li>
+                                    <li><a href="https://egov.kthcm.edu.vn/" class="menutrai"> EGOV</a></li>
+                                    <li><a href="https://sv.kthcm.edu.vn/" class="menutrai">SINH VIEN</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                    <div style="width: 1000px;">
+                        <img src="images/Ten-truong-do-1000x159.png" width="500" height="80"/>
+                    </div>
+                    <div>
+                        Tim kiem
+                    </div>
+            </div>
+            <div id="menubar">
+                <ul>
+                    <li><a href="https://www.kthcm.edu.vn/gioi-thieu">Giới thiệu</a></li>
+                    <li><a href="https://www.kthcm.edu.vn/tin-tuc-su-kien-hce">Tin tức - Sự kiện</a></li>
+                    <li><a href="https://tuyensinh.kthcm.edu.vn/he-dang-ky-xet-tuyen.html">Tuyển sinh</a></li>
+                    <li><a href="#">Công khai giáo dục</a></li>
+                    <li><a href="#">Cơ cấu tổ chức</a></li>
+                    <li><a href="#">Liên kết</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div id="container" style="min-height:500px;text-align: center;justify-content: center;">
+            <img src="https://www.kthcm.edu.vn/wp-content/uploads/2023/09/HUY7582_2M-2048x1097.jpg" width="1000"/>
+        </div>
+        <div style="justify-content: center;">
+            NỘI DUNG ĐẶT Ở ĐÂY
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
